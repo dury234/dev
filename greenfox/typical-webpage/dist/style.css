@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background: purple;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  width: 100px;
+  height: 30px;
+  background: cyan;
+  margin: 0px 5px;
+}
+
+.content {
+  display: flex;
+  
+}
+
+.main-content {
+  height: 500px;
+  flex-grow: 3.5;
+  background: yellow;
+}
+
+.side {
+  height: 500px;
+  flex-grow: 1;
+  background: lime;
+}

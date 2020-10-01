@@ -1,0 +1,56 @@
+body {
+  width: 600px;
+  margin: 0px auto;
+}
+
+.header {
+  height: 70px;
+  width: 600px;
+  background: aqua;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+}
+
+.content {
+  height: 1600px;
+  display: flex;
+  margin-top: 70px;
+}
+
+.right-sb {
+  height: 100%;
+  flex-grow: 1;
+  background: orange;  
+  position: relative;
+}
+
+.main-content {
+  height: 100%;
+  flex-grow: 2;
+  background: red;
+  margin: 0px 10px;
+  position: relative;
+}
+
+.left-sb {
+  height: 100%;
+  flex-grow: 1;
+  background: purple;
+  position: relative;
+}
+
+.fixed {
+  background: black;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.footer {
+  background: blue;
+  height: 70px;
+  
+}

@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+}
+
+
+
+.header {
+  position: fixed;
+  top: 0px;
+  height: 70px;
+  width: 100%;
+  background: purple;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.menu {
+  width: 100px;
+  height: 30px;
+  background: cyan;
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  margin: 75px 100px 5px 100px;
+}
+
+.main-content {
+  height: 700px;
+  flex-grow: 3.5;
+  background: yellow;
+}
+
+.side {
+  height: 700px;
+  flex-grow: 1;
+  background: lime;
+}
+
+.footer {
+  height: 80px; 
+  margin: 0px 100px;
+  background: lightgrey;
+}
